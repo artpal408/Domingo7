@@ -19,6 +19,7 @@ if (isset($_GET['cerrar'])){
 }
 
 
+
 if (isset($_POST['Login'])) {
     echo 'Hey, te quieres loguear';
     $usuario= $_POST['usuario'];
