@@ -17,7 +17,7 @@ class MascotaModelo{
     }
 
     public function agregarMascota($nombre, $sexo, $edad, $foto) {
-        $consulta = sprintf("INSERT INTO mascotas VALUES (DEFAULT, '%s', %d, '%s', '%s')", $nombre, $edad, $sexo, $foto);
+        $consulta = sprintf("INSERT INTO mascotas VALUES (DEFAULT, '%s', %d, '%s', '%s', DEFAULT )", $nombre, $edad, $sexo, $foto);
         return $this->enlace->query($consulta);
 
     }

@@ -11,13 +11,13 @@ header("location: http://mascota:8089/vista/Login.vista.php");
 
 ?>
 
-<form action="../controlador/Inicio.ctrl.php" method="post">
+<form action="../controlador/Mascota.ctrl.php" method="post">
 
-    <input placeholder="Nombre mascota" type="text">
+    <input name="nombre" placeholder="Nombre mascota" type="text">
     <br>
-    <input placeholder="Edad" type="text">
+    <input name="edad" placeholder="Edad" type="text">
     <br>
-    <input placeholder="Sexo" type="text">
+    <input name="sexo" placeholder="Sexo" type="text">
     <br>
     <label for=""> Foto </label>
     <br>
