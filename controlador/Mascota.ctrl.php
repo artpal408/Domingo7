@@ -22,7 +22,9 @@ if(isset ($_POST['agregar'])){
         echo 'Mascota agregada';
     }
     else{
-        echo "Fallo al agregar mascota";
+        echo 'Fallo al agregar mascota';
     }
 
 }
+
+include_once '../vista/Inicio.vista.php';
